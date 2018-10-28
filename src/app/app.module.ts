@@ -7,6 +7,9 @@ import { UsersComponent } from './users/users.component';
 import { RepositoriesComponent } from './repositories/repositories.component';
 import { SearchComponent } from './search/search.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import {HttpClientModule} from '@angular/common/http'
+import { NgProgressModule } from '@ngx-progressbar/core';
+import { NgProgressHttpModule } from '@ngx-progressbar/http';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { NotFoundComponent } from './not-found/not-found.component';
   ],
   imports: [
     BrowserModule,
-    RoutingModule
+    RoutingModule,
+    HttpClientModule,
+    NgProgressModule.forRoot(),
+    NgProgressHttpModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
