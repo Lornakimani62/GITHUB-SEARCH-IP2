@@ -1,0 +1,25 @@
+<!-- Nav bar starts here -->
+<nav class="navbar sticky-top navbar-expand-lg navbar-custom bg-dark ">
+  <a class="navbar-brand" href="#"><img src="src/assets/logo1.png" alt="" width=130px; heigth=80px;></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+  <div class="collapse navbar-collapse">
+    <h2>Github Search</h2>&nbsp;&nbsp;
+    <ul class="navbar-nav ml-auto px-4 display-5 ">
+      <li class="nav-item">
+        <a class="nav-link" href="#"> Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#works">Users</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#works">Repositories</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input (keyup)='getUsers($event)' #keyword class="form-control mr-sm-2" type="text" placeholder="Search for github users and reposiories" name='keyword'>
+    </form>
+  </div>
+</nav>
