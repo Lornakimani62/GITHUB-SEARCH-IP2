@@ -11,6 +11,7 @@ import {HttpClientModule} from '@angular/common/http'
 import { NgProgressModule } from '@ngx-progressbar/core';
 import { NgProgressHttpModule } from '@ngx-progressbar/http';
 import { TestDirective } from './test.directive';
+import { DatePipe } from './date.pipe';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { TestDirective } from './test.directive';
     RepositoriesComponent,
     SearchComponent,
     NotFoundComponent,
-    TestDirective
+    TestDirective,
+    DatePipe
   ],
   imports: [
     BrowserModule,
