@@ -1,8 +1,9 @@
 export class Users {
     constructor( 
-        public name:string,
+        public login:string,
         public email:string,
         public location:string,
-        public memberSince:Date,
-        public repos:number){}
+        public avatar_url: any,
+        public html_url
+        ){}
 }

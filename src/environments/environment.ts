@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  apiUrl: "37d19ab6012b8fbec3fa0a1927fa4540074c7a3a"
+  apiUrl:'https://apigithubcom/users/Lornakimani62access_token=3e74900f4ee9fd9e9ce026eb2de851d6af31169',
+  apiUrl1:'https://api.github.com/users/Lornakimani62/repos'
 };
 
 /*

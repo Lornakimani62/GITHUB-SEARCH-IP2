@@ -1,34 +1,33 @@
 <!-- User profile starts here -->
-<ng-progress></ng-progress>
+<!-- <ng-progress></ng-progress> -->
 <div class="users"> <br>
-    <h2>User Profile</h2>
-  </div>
-    <br>
-      <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12 col-sm-12">
-            <div class="card">
-               <h5 class="card-title">Card title</h5><br>
-                <img src="" alt="" class="img-thumbnail img-responsive img-circle">
-                  <div class="card-body">
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item">Cras justo odio</li>
-                      <li class="list-group-item">Dapibus ac facilisis in</li>
-                      <li class="list-group-item">Vestibulum at eros</li>
-                    </ul><br>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-        </div>
+  <h2>User Profile</h2>
+</div>
+<br>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12">
+    <div class="card">
+      <h3 class="card-title">{{users.login}}'s Profile</h3><br>
+      <img src={{users.avatar_url}} alt="{{users.login}}" class="img-thumbnail img-responsive img-circle">
+      <div class="card-body">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Username : {{users.login}}</li>
+          <li class="list-group-item">Location : {{users.location}}</li>
+          <li class="list-group-item">Email : {{users.email}}</li>
+        </ul><br>
+        <a href={{users.html_url}} class="btn btn-primary">View Profile</a>
       </div>
     </div>
-    <!-- User profile ends here -->
-    <!-- The Repositories display starts here -->
-    <div class="Repositories">
-      <br>
-      <h2>User Repositories</h2>
-      <br>
-      <app-repositories></app-repositories>
-    </div>
-    
-    <!-- The Repositories section ends here -->
+  </div>
+</div>
+<!-- User profile ends here -->
+<!-- The Repositories display starts here -->
+<div class="Repositories">
+  <br>
+  <h2>User Repositories</h2>
+  <br>
+  <app-repositories></app-repositories>
+</div>
+
+<!-- The Repositories section ends here -->

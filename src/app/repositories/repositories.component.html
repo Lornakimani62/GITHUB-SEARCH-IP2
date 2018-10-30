@@ -1,12 +1,15 @@
 <div class="container-fluid">
 <div class="card">
+  <div *ngFor="let repo of repositories">
     <div class="card-header">
-      Featured
+      {{repo.name}}
     </div>
     <div class="card-body">
-      <h5 class="card-title">Special title treatment</h5>
-      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <h5 class="card-title">{{repo.name}}</h5>
+      <p class="card-text">{{repo.description}}</p>
+      <a href={{repo.repos_url}} class="btn btn-primary">View Repositories</a>
     </div>
   </div>
+</div>
+<br><br>
 </div>
