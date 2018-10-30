@@ -5,7 +5,7 @@ Moringa Core independent project. The Program lets users search for github users
 
 Lorna Kimani
 
-#Application specs
+# Application specs
 <ul>
 <li>Search for other Github Users</li>
 <li>Search for Github repositories created by other users</li>
@@ -13,9 +13,10 @@ Lorna Kimani
 <li>Visit a users repositories</li>
 </ul>
 
-#Application Dependency
+# Application Dependency
 Github API
 Angular
+
 # Link to Deployed Site
 https://lornakimani62.github.io/GITHUB-SEARCH-IP2/
 
