@@ -17,7 +17,7 @@ Lorna Kimani
 Github API
 Angular
 # Link to Deployed Site
-https://andyweru.github.io/MC_11_Github_Search/
+https://lornakimani62.github.io/GITHUB-SEARCH-IP2/
 
 # Project setup instructions
 To see the code written use the following commands:
