@@ -14,9 +14,14 @@ Lorna Kimani
 </ul>
 
 # Application Dependency
-Github API
-Angular
-
+<ul>
+<li>Github API</li>
+<li>Angular</li>
+  </ul>
+  
+ #  Known Bugs
+ The site cannot search other users and their repostories 
+ 
 # Link to Deployed Site
 https://lornakimani62.github.io/GITHUB-SEARCH-IP2/
 
