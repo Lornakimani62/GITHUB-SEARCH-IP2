@@ -16,8 +16,10 @@
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
-      <input (keyup)='usersRequest()' #keyword class="form-control mr-sm-2" type="text" placeholder="Search for github users" name='keyword'>
-    </form>
+
+        <input (keyup)='getUsers($event)' #keyword class="form-control mr-sm-2" type="text" placeholder="Search users , repos . . ." name='keyword'>
+    
+      </form>
   </div>
 </nav>
 <!-- Nav bar ends here -->
