@@ -1,4 +1,4 @@
-#GITHUB-SEARCH-IP2
+# GITHUB-SEARCH-IP2
 Moringa Core independent project. The Program lets users search for github users and their repositories
 
 #Author(s).
