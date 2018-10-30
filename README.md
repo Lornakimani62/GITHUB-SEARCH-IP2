@@ -1,6 +1,31 @@
-# GithubSearch
+#GITHUB-SEARCH-IP2
+Moringa Core independent project. The Program lets users search for github users and their repositories
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.5.
+#Author(s).
+
+Lorna Kimani
+
+#Application specs
+<ul>
+<li>Search for other Github Users</li>
+<li>Search for Github repositories created by other users</li>
+<li>Visit a users account</li>
+<li>Visit a users repositories</li>
+</ul>
+
+#Application Dependency
+Github API
+Angular
+# Link to Deployed Site
+https://andyweru.github.io/MC_11_Github_Search/
+
+# Project setup instructions
+To see the code written use the following commands:
+<ul>
+<li>git clone: https://github.com/Lornakimani62/GITHUB-SEARCH-IP2</li>
+<li>cd GithubSearch</li>
+<li>code . (if using visual studio code is your preffered text editor)</li>
+</ul>
 
 ## Development server
 
