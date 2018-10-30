@@ -16,6 +16,16 @@ export class UsersComponent implements OnInit {
   apiUrl:string = environment.apiUrl
   constructor(private finderRequestService:FinderRequestService) { }
 
+  getUsers($key){
+    if($key.target.value==''){
+
+    }else{
+      this.finderRequestService.usersRequest($key.target.value);
+    }
+
+
+    console.log($key.target.value)
+  }
   ngOnInit() {
     this.finderRequestService.usersRequest("Lornakimani62")
     this.users=this.finderRequestService.usersRequest("Lornakimani62")

@@ -10,6 +10,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import {HttpClientModule} from '@angular/common/http'
 import { NgProgressModule } from '@ngx-progressbar/core';
 import { NgProgressHttpModule } from '@ngx-progressbar/http';
+import { TestDirective } from './test.directive';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { NgProgressHttpModule } from '@ngx-progressbar/http';
     UsersComponent,
     RepositoriesComponent,
     SearchComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    TestDirective
   ],
   imports: [
     BrowserModule,

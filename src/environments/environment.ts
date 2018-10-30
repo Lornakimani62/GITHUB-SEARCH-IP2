@@ -5,8 +5,7 @@
 export const environment = {
   production: false,
   apiUrl:'https://apigithubcom/users/Lornakimani62access_token=3e74900f4ee9fd9e9ce026eb2de851d6af31169',
-  apiUrl1:'https://api.github.com/users/Lornakimani62/repos'
-};
+  access_token:'284a70214412bb8997800d2a05b0635cf59d5e71'
 
 /*
  * For easier debugging in development mode, you can import the following file
