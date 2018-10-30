@@ -15,7 +15,7 @@ export class FinderRequestService {
   private username:string;
   private clientid='7c6b97c25474dbd23644';
   private clientsecret='6872d0cba38ccc1436477bcbdf34c714b561789b';  
-  key:string=environment.access_token;  
+   
 
   constructor(private http:HttpClient) { 
     this.username='Lornakimani62';

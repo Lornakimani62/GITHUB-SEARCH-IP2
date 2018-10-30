@@ -12,7 +12,7 @@ import {FinderRequestService} from '../finder-http/finder-request.service'
 })
 export class RepositoriesComponent implements OnInit {
   repositories:Repositories[] = [];
-  apiUrl:string = environment.apiUrl
+  // apiUrl:string = environment.apiUrl
   constructor(private finderRequestService:FinderRequestService) { }
 
   ngOnInit() {

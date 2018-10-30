@@ -15,12 +15,9 @@
         <a routerLink='/Repositories' routerLinkActive='active'>Repositories</a>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-
-        <input (keyup)='getUsers($event)' #keyword class="form-control mr-sm-2" type="text" placeholder="Search users , repos . . ." name='keyword'>
-    
-      </form>
   </div>
 </nav>
 <!-- Nav bar ends here -->
+
+
 <router-outlet></router-outlet>
